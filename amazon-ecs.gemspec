@@ -24,11 +24,11 @@ Gem::Specification.new do |gem|
       gem.add_runtime_dependency("nokogiri", "~> 1.4")
       gem.add_runtime_dependency("ruby-hmac", "~> 0.3")
     else
-      gem.add_dependency("nokogiri", "~> 1.4")
+      gem.add_dependency("nokogiri", "~> 1.6")
       gem.add_dependency("ruby-hmac", "~> 0.3")
     end
   else
-    gem.add_dependency("nokogiri", "~> 1.4")
+    gem.add_dependency("nokogiri", "~> 1.6")
     gem.add_dependency("ruby-hmac", "~> 0.3")
   end
 end
